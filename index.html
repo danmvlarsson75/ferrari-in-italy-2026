@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <title>Ferrari Italy Roadtrip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">21-27 June 2026</p>
+        <h1>Ferrari Italy Roadtrip</h1>
+        <p class="hero__lede">
+          Rome to Tuscany, Emilia-Romagna, Piedmont, the Ligurian coast, then
+          transit to the Toulon ferry.
+        </p>
+        <div class="hero__facts" aria-label="Trip overview">
+          <span>Italy-focused</span>
+          <span>Ferrari driving</span>
+          <span>Wine and food</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="timeline-title">
+        <div class="section__header">
+          <p class="eyebrow">Italian Roadbook</p>
+          <h2 id="timeline-title">Seven Visual Days</h2>
+        </div>
+        <div id="timeline" class="timeline"></div>
+      </section>
+
+      <section class="section" aria-labelledby="wine-title">
+        <div class="section__header">
+          <p class="eyebrow">Wine Anchors</p>
+          <h2 id="wine-title">Two Tastings Worth Building Around</h2>
+        </div>
+        <div id="wine-experiences" class="wine-grid"></div>
+      </section>
+
+      <section class="section compact-section" aria-labelledby="hotels-title">
+        <div class="section__header">
+          <p class="eyebrow">Accommodation</p>
+          <h2 id="hotels-title">Quiet Practical Notes</h2>
+        </div>
+        <div id="hotels" class="hotel-grid"></div>
+      </section>
+
+      <section class="section compact-section" aria-labelledby="logistics-title">
+        <div class="section__header">
+          <p class="eyebrow">Travel Logistics</p>
+          <h2 id="logistics-title">Small Print</h2>
+        </div>
+        <div id="logistics" class="logistics-grid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="maps-title">
+        <div class="section__header">
+          <p class="eyebrow">Navigation</p>
+          <h2 id="maps-title">Route Links</h2>
+        </div>
+        <div id="maps" class="maps-list"></div>
+      </section>
+
+      <section class="section notes" aria-labelledby="notes-title">
+        <div class="section__header">
+          <p class="eyebrow">Still Needed</p>
+          <h2 id="notes-title">Booking Notes</h2>
+        </div>
+        <ul id="booking-notes" class="notes-list"></ul>
+      </section>
+
+      <section class="section credits" aria-labelledby="credits-title">
+        <div class="section__header">
+          <p class="eyebrow">Image Credits</p>
+          <h2 id="credits-title">Location Photography</h2>
+        </div>
+        <ul id="image-credits" class="credits-list"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
