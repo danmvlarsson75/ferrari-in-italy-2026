@@ -96,13 +96,13 @@ const wineExperiences = [
     place: "Montepulciano",
     title: "De' Ricci - Visit the Cathedral",
     date: "22 June 2026",
-    bestSlot: "Aim for 17:00 after the car is parked and lunch is done.",
+    bestSlot: "Confirmed for 17:00. Arrive 10 minutes early, around 16:50.",
     why:
       "The most theatrical fit for the trip: a guided visit through historic underground cellars, then a choice of 3- or 6-wine tasting from Vino Nobile through their SorAldo and Supertuscan bottlings.",
     details:
-      "Official page lists 10:30, 12:00, 15:00 and 17:00 slots, 75 minutes, and 20/30 EUR per person depending on 3 or 6 wines. Their deeper 100% Sangiovese tasting is 75 minutes, 50 EUR per person, and includes four symbolic wines with local bites.",
+      "Historic cellar at Via Ricci 13. Choose the 3- or 6-wine tasting on arrival, at 20 or 30 EUR per person. The tour and tasting take about 75 minutes; cellar temperature is around 16-20 C, so bring a light layer.",
     plan:
-      "Drive Rome to Montepulciano, park at the hotel, lunch locally, then taxi/walk into town for De' Ricci. Ask for the 6-wine option or the 100% Sangiovese experience if available.",
+      "Drive Rome to Montepulciano, park at the hotel, lunch locally, then walk to De' Ricci. Do not drive to the winery: it is in the historic-center ZTL.",
     link: "https://www.cantinadericci.it/en/esperienza/la-selezione/",
     backup: "Backup: Cantine Dei EnoTour at 16:15 if you want a modern estate/vineyard setting instead of old-town cellars.",
     backupLink: "https://www.mariacaterinadei.it/en/tastings/",
