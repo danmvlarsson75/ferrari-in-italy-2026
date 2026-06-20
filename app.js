@@ -104,25 +104,21 @@ const wineExperiences = [
     plan:
       "Drive Rome to Montepulciano, park at the hotel, lunch locally, then walk to De' Ricci. Do not drive to the winery: it is in the historic-center ZTL.",
     link: "https://www.cantinadericci.it/en/esperienza/la-selezione/",
-    backup: "Backup: Cantine Dei EnoTour at 16:15 if you want a modern estate/vineyard setting instead of old-town cellars.",
-    backupLink: "https://www.mariacaterinadei.it/en/tastings/",
+    backup: "Booked and confirmed. No backup tasting needed.",
   },
   {
     place: "Barolo",
-    title: "La Vite Turchese or Marchesi di Barolo",
+    title: "Marchesi di Barolo",
     date: "25 June 2026",
-    bestSlot: "Lunch in Barolo, then a 15:00-16:00 tasting.",
+    bestSlot: "Booked for the Barolo afternoon after lunch.",
     why:
-      "For two friends who love wine, La Vite Turchese is the flexible, wine-nerd choice: a personalized tasting across local producers, with the option to focus on Barolo styles, crus, and older bottles. Marchesi di Barolo is the classic cellar alternative right in the village where Barolo was born.",
+      "A classic Barolo cellar right in the village where Barolo was born, and now the confirmed tasting anchor for the Piedmont day.",
     details:
-      "La Vite Turchese lists tastings from 11:30 to 17:30 and Thursday opening 14:00-19:00. Marchesi di Barolo lists historic cellars in Barolo, open daily 10:30-18:00, with bookable visits.",
+      "Historic cellars in Barolo with a confirmed booking. Plan lunch in the village first, then head into the tasting without needing extra options.",
     plan:
-      "Drive Bologna to Barolo, lunch in the village, do one serious tasting, then taxi/driver or a very disciplined spit-and-drive plan back to Alba for dinner.",
-    link: "https://laviteturchese.it/en/personalized-wine-tastings-in-barolo/",
-    classicLink: "https://marchesibarolo.com/en/visits/",
-    backup:
-      "Backup producer visit: Massolino in Serralunga d'Alba for a reservation-only visit with panoramic terrace, barrels and family history.",
-    backupLink: "https://www.massolino.it/en/visits-tastings/",
+      "Drive Bologna to Barolo, lunch in the village, then do the confirmed Marchesi di Barolo tasting before heading back to Alba for dinner.",
+    link: "https://marchesibarolo.com/en/visits/",
+    backup: "Booked and confirmed. No alternate tasting option needed.",
   },
 ];
 
