@@ -11,10 +11,10 @@ const logistics = [
   {
     title: "Ferrari Pickup",
     date: "22 June 2026",
-    detail: "Rome pickup",
+    detail: "Rocco Forte Hotel De La Ville, Rome",
     meta: "Monday morning pickup confirmed",
     note:
-      "Use the Rome overnight to reset after the flight, then collect the Ferrari before driving to Montepulciano. Confirm insurance hold, luggage fit, fuel policy, and ZTL guidance with the provider.",
+      "Use the Rome overnight to reset after the flight, then collect the Ferrari at Rocco Forte Hotel De La Ville before driving to Montepulciano. Parking there is already arranged; confirm insurance hold, luggage fit, fuel policy, and ZTL guidance with the provider.",
     status: "Booked",
     statusType: "set",
   },
@@ -160,7 +160,7 @@ const itinerary = [
     lunch: "Flexible around the 14:25 arrival.",
     dinner: "Roman trattoria near the hotel, no late ZTL driving.",
     parking:
-      "Condotti Boutique Hotel is booked. Confirm garage or valet handling before Monday morning Ferrari pickup.",
+      "Condotti Boutique Hotel is booked. Monday morning Ferrari pickup is at Rocco Forte Hotel De La Ville, where parking is already arranged.",
     mapLabel: "Rome arrival",
     mapUrl:
       "https://www.google.com/maps/dir/?api=1&origin=Fiumicino+Airport,+Italy&destination=Rome,+Italy&travelmode=driving",
@@ -396,7 +396,7 @@ const bookingNotes = [
   {
     title: "Rome overnight",
     body:
-      "Condotti Boutique Hotel is confirmed for 21-22 June 2026. Confirm garage or valet handling before the Monday morning Ferrari pickup.",
+      "Condotti Boutique Hotel is confirmed for 21-22 June 2026. Ferrari pickup is Monday morning at Rocco Forte Hotel De La Ville, where parking is already arranged.",
   },
   {
     title: "Ferry operations",
