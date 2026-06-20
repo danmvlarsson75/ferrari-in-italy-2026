@@ -10,13 +10,13 @@ const logistics = [
   },
   {
     title: "Ferrari Pickup",
-    date: "21 June 2026",
+    date: "22 June 2026",
     detail: "Rome pickup",
-    meta: "Time and exact location still need confirmation",
+    meta: "Monday morning pickup confirmed",
     note:
-      "Confirm insurance hold, luggage fit, fuel policy, ZTL guidance, and after-hours contact.",
-    status: "Needs confirmation",
-    statusType: "warning",
+      "Use the Rome overnight to reset after the flight, then collect the Ferrari before driving to Montepulciano. Confirm insurance hold, luggage fit, fuel policy, and ZTL guidance with the provider.",
+    status: "Booked",
+    statusType: "set",
   },
   {
     title: "Ferry Departure",
@@ -33,13 +33,13 @@ const logistics = [
 const hotels = [
   {
     city: "Rome",
-    name: "Hotel still needed",
+    name: "Condotti Boutique Hotel",
     dates: "21-22 June 2026",
-    address: "Needs confirmation",
+    address: "Spagna, Rome",
     parking:
-      "Prioritize private garage or valet outside/near the ZTL edge, with easy exit toward Tuscany.",
-    status: "Needs booking",
-    statusType: "warning",
+      "Confirm private garage or valet handling and the cleanest exit route toward Tuscany before Monday morning pickup.",
+    status: "Booked",
+    statusType: "set",
   },
   {
     city: "Montepulciano",
@@ -134,7 +134,7 @@ const itinerary = [
     start: "Palma de Mallorca",
     end: "Rome",
     overnight: "Rome",
-    route: "Flight in, Ferrari handover, first Roman night.",
+    route: "Flight in, hotel check-in, first Roman night.",
     driveTime: "Local transfers only",
     mood: "Start soft, keep the car calm, let Rome do the theatre.",
     images: [
@@ -155,12 +155,12 @@ const itinerary = [
         alt: "Colosseum arches in Rome",
       },
     ],
-    highlights: ["Rome at golden hour", "Ferrari pickup", "First aperitivo"],
+    highlights: ["Rome at golden hour", "Condotti check-in", "First aperitivo"],
     foodWine: ["Carbonara", "Amatriciana", "Frascati"],
     lunch: "Flexible around the 14:25 arrival.",
     dinner: "Roman trattoria near the hotel, no late ZTL driving.",
     parking:
-      "Rome hotel still needed. Choose private garage or valet with simple city exit.",
+      "Condotti Boutique Hotel is booked. Confirm garage or valet handling before Monday morning Ferrari pickup.",
     mapLabel: "Rome arrival",
     mapUrl:
       "https://www.google.com/maps/dir/?api=1&origin=Fiumicino+Airport,+Italy&destination=Rome,+Italy&travelmode=driving",
@@ -172,7 +172,7 @@ const itinerary = [
     start: "Rome",
     end: "Montepulciano",
     overnight: "Montepulciano",
-    route: "Rome to Montepulciano, leaving autostrada pace for Tuscan roads.",
+    route: "Morning Ferrari pickup in Rome, then Montepulciano via fast autostrada and Tuscan roads.",
     driveTime: "Approx. 2 h 30 min before scenic stops",
     mood: "The first proper Ferrari day: cypress roads, hill towns, long views.",
     images: [
@@ -195,7 +195,7 @@ const itinerary = [
     ],
     highlights: ["Val d'Orcia edges", "Montepulciano evening", "Hill-town roads"],
     foodWine: ["Vino Nobile", "Pici", "Pecorino"],
-    lunch: "Finish the drive, park/check in, then have lunch in Montepulciano.",
+    lunch: "Pick up the Ferrari in Rome, finish the drive, park/check in, then have lunch in Montepulciano.",
     dinner: "Keep dinner close to the parked car after the De' Ricci tasting.",
     parking:
       "Parking guidance received from the property. Confirm the exact spot on arrival.",
@@ -394,9 +394,9 @@ const itinerary = [
 
 const bookingNotes = [
   {
-    title: "Rome hotel",
+    title: "Rome overnight",
     body:
-      "Needs confirmation: book the 21 June 2026 Rome overnight with private garage or valet parking.",
+      "Condotti Boutique Hotel is confirmed for 21-22 June 2026. Confirm garage or valet handling before the Monday morning Ferrari pickup.",
   },
   {
     title: "Ferry operations",
