@@ -526,12 +526,6 @@ function renderWineExperiences() {
           <p class="fine-print">${experience.backup}</p>
           <div class="wine-card__links">
             <a class="link-button" href="${experience.link}" target="_blank" rel="noreferrer">Primary option</a>
-            ${
-              experience.classicLink
-                ? `<a class="secondary-link" href="${experience.classicLink}" target="_blank" rel="noreferrer">Classic cellar option</a>`
-                : ""
-            }
-            <a class="secondary-link" href="${experience.backupLink}" target="_blank" rel="noreferrer">Backup option</a>
           </div>
         </article>
       `,
